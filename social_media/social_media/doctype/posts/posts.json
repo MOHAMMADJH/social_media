@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "creation": "2021-07-13 17:43:54.271456",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "post_content",
+  "post_status",
+  "column_break_3",
+  "scheduled_time",
+  "date",
+  "attachments_section",
+  "image",
+  "attatchments",
+  "comments_section",
+  "post_commments"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "post_content",
+   "fieldtype": "Text Editor",
+   "label": "Post Content"
+  },
+  {
+   "fieldname": "attachments_section",
+   "fieldtype": "Section Break",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "attatchments",
+   "fieldtype": "Attach",
+   "label": "Attatchments"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "comments_section",
+   "fieldtype": "Section Break",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "post_commments",
+   "fieldtype": "Table",
+   "label": "Post Commments",
+   "options": "Comments"
+  },
+  {
+   "fieldname": "post_status",
+   "fieldtype": "Select",
+   "label": "Post Status",
+   "options": "Scheduled\nPosted"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "scheduled_time",
+   "fieldtype": "Datetime",
+   "label": "Scheduled Time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-07-13 18:51:11.467595",
+ "modified_by": "Administrator",
+ "module": "Social Media",
+ "name": "Posts",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

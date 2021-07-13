@@ -1,11 +1,14 @@
 {
+ "actions": [],
  "creation": "2021-07-13 03:36:13.382985",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "facebook",
-  "youyube"
+  "youyube",
+  "twitter",
+  "instgram"
  ],
  "fields": [
   {
@@ -17,10 +20,21 @@
    "fieldname": "youyube",
    "fieldtype": "Data",
    "label": "YouTube"
+  },
+  {
+   "fieldname": "twitter",
+   "fieldtype": "Data",
+   "label": "Twitter"
+  },
+  {
+   "fieldname": "instgram",
+   "fieldtype": "Data",
+   "label": "Instgram"
   }
  ],
  "istable": 1,
- "modified": "2021-07-13 03:36:13.382985",
+ "links": [],
+ "modified": "2021-07-13 18:55:28.979164",
  "modified_by": "Administrator",
  "module": "Social Media",
  "name": "Social Media links",

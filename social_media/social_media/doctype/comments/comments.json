@@ -1,0 +1,35 @@
+{
+ "actions": [],
+ "creation": "2021-07-13 18:34:44.772256",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "comment_contents",
+  "time"
+ ],
+ "fields": [
+  {
+   "fieldname": "comment_contents",
+   "fieldtype": "Text",
+   "label": "Comment Contents"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-07-13 18:34:44.772256",
+ "modified_by": "Administrator",
+ "module": "Social Media",
+ "name": "Comments",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
